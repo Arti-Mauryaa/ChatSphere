@@ -1,79 +1,117 @@
-# 💬 ChatSphere Chat Application
+# 💬 ChatSphere – Real-Time Chat Application
 
-ChatSphere is a real-time chat application built using the MERN Stack (MongoDB, Express, React, Node.js) with Socket.io for instant messaging.
+ChatSphere is a full-stack real-time chat application built using the **MERN Stack (MongoDB, Express, React, Node.js)** and **Socket.io**. It enables users to communicate instantly with a smooth and responsive interface.
 
 ---
 
 ## 🚀 Features
-- 🔐 User authentication (login/register)
-- 💬 Real-time messaging using Socket.io
-- 🟢 Online/offline user status
-- 👤 User profiles & avatars
-- ⚡ Fast and responsive UI
-- 📱 Mobile responsive design
+
+* 🔐 User Authentication (Login/Register)
+* 💬 Real-time Messaging with Socket.io
+* 🟢 Online/Offline User Status
+* 👤 User Profiles & Avatars
+* ⚡ Fast & Responsive UI
+* 📱 Fully Mobile Responsive
+* 🔄 Instant Message Updates (No Refresh)
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- React.js
-- Axios
-- CSS / Styled Components
+
+* React.js
+* Axios
+* Styled Components / CSS
 
 ### Backend
-- Node.js
-- Express.js
-- Socket.io
+
+* Node.js
+* Express.js
+* Socket.io
 
 ### Database
-- MongoDB (Atlas / Local)
+
+* MongoDB (Atlas / Local)
 
 ---
 
 ## 📁 Project Structure
-code-sphere/
-├── client/ # React frontend
-├── server/ # Node/Express backend
-├── images/ # Screenshots
 
+```
+ChatSphere/
+├── client/     # React frontend
+├── server/     # Node.js backend
+├── screenshots/  # App screenshots
+```
 
 ---
 
 ## ⚙️ Installation & Setup
 
-### 1. Clone the repository
+### 1️⃣ Clone the repository
+
 ```bash
-git clone https://github.com/YOUR-GITHUB-USERNAME/code-sphere.git
-cd code-sphere
-2. Install dependencies
-Backend
+git clone https://github.com/Arti-Mauryaa/ChatSphere.git
+cd ChatSphere
+```
+
+---
+
+### 2️⃣ Install dependencies
+
+#### Backend
+
+```bash
 cd server
 npm install
-Frontend
+```
+
+#### Frontend
+
+```bash
 cd client
 npm install
+```
 
-3. Setup Environment Variables
+---
 
-Create .env file inside server/ folder:
+### 3️⃣ Setup Environment Variables
 
+Create a `.env` file inside the `server/` folder and add:
+
+```env
 PORT=5000
 MONGO_URL=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
 
-👉 Example:
+---
 
-MONGO_URL=mongodb+srv://user:password@cluster.mongodb.net/chat4. Run the project
+### 4️⃣ Run the application
 
-4. Run the project
-Start Backend
+#### Start Backend
+
+```bash
 cd server
 npm start
-Start Frontend
+```
+
+#### Start Frontend
+
+```bash
 cd client
 npm start
+```
 
-🌐 Deployment
-Frontend → Vercel
-Backend → Render / Railway
-Database → MongoDB Atlas
+---
+
+## 🌐 Deployment
+
+* Frontend → Vercel
+* Backend → Render / Railway
+* Database → MongoDB Atlas
+
+
+
+
